@@ -1,0 +1,73 @@
+.big-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 48px 0;
+}
+
+.game-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 674px;
+}
+
+.emoji-box {
+    width: calc((674px / 5) - 6px);
+    height: 128px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #BEB0E2;
+    cursor: pointer;
+    margin: 3px;
+}
+
+@media only screen and (max-width: 992px) {
+    .game-box {
+        max-width: 576px;
+    }
+    .emoji-box {
+        width: calc((576px / 5) - 6px);
+        height: 109px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .game-box {
+        max-width: 500px;
+    }
+    .emoji-box {
+        width: calc((500px / 5) - 6px);
+        height: 94px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .game-box {
+        max-width: 450px;
+    }
+    .emoji-box {
+        width: calc((450px / 5) - 6px);
+        height: 84px;
+    }
+}
+
+@media only screen and (max-width: 484px) {
+    .game-box {
+        max-width: 400px;
+    }
+    .emoji-box {
+        width: calc((400px / 5) - 6px);
+        height: 74px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .game-box {
+        max-width: 300px;
+    }
+    .emoji-box {
+        width: calc((300px / 5) - 6px);
+        height: 54px;
+    }
+}

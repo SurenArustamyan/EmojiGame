@@ -1,0 +1,126 @@
+.pop-box{
+    width: 60%;
+    height: 60%;
+    background-color: #C6B2E1;
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-box{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box img{
+    width: 75%;
+    height: 90%;
+}
+.text-box h1{
+    color: white;
+    font-size: 70px;
+}
+.text-box h2{
+    color: white;
+    font-size: 50px;
+}
+.text-box h3{
+    color: #755DDA;
+    font-size: 50px;
+}
+.score{
+    width: 180px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.score button{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #F7D13C;
+    border: none;
+    cursor: pointer;
+    font-weight:bold ;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.pop-box-wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width:1220px) {
+    .text-box h1{
+        font-size: 50px;
+    }
+    .img-box{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .text-box h1{
+        font-size: 30px;
+    }
+    .text-box h2{
+        font-size: 25px;
+    }
+    .text-box h3{
+        font-size: 25px;
+    }
+    .text-box{
+        width: 50%;
+    }
+    .pop-box{
+        height: 40%;
+    }
+    .score button{
+        width: 90px;
+        height: 35px;
+        font-size: 10px;
+        margin: 0;
+    }
+    .img-box img{
+        width: 70%;
+        height: 85%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .img-box img{
+        width: 150px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .img-box img{
+        width: 90px;
+        height: 140px;
+    }
+}

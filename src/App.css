@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background: rgb(94,87,136);
+  background: linear-gradient(90deg, rgba(94,87,136,1) 28%, rgba(161,150,224,1) 63%);
+}
+

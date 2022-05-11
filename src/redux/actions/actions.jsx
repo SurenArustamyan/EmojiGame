@@ -1,0 +1,5 @@
+export const SET_NEW_STATE = "SET_NEW_STATE"
+export const SET_NEW_CLICKS = "SET_NEW_CLICKS"
+export const SET_POPUP = "SET_POPUP"
+export const SET_HISTORY = "SET_HISTORY"
+export const SET_GAME = "SET_GAME"
